@@ -7,16 +7,33 @@ a[href*="support"],
 }
 
 /* dynamic member list */
-.container_c8ffbb {
-    transition: width 0.2s ease-in-out !important;
-    width: 0 !important;
+.container_c8ffbb,
+.container__7641b {
+    transition: transform 0.2s ease-in-out !important;
+    transform: translateX(270px) !important;
     right: 0 !important;
     position: absolute !important;
+    overflow: visible !important;
+}
+
+.container_c8ffbb::before,
+.container__7641b::before {
+    content: "" !important;
+    position: absolute !important;
+    top: 0 !important;
+    right: 100% !important;
+    width: var(--hitbox-size) !important;
+    height: 100% !important;
+    background-color: transparent !important;
+    z-index: 1 !important;
+    pointer-events: auto !important;
 }
 
 .container_c8ffbb:hover,
-.container_c8ffbb:has(.selected__91a9d) {
-    width: 270px !important;
+.container_c8ffbb:has(.selected__91a9d),
+.container__7641b:hover,
+.container__7641b:has(.selected__91a9d) {
+    transform: translateX(0) !important;
 }
 
 /* member list button order change */

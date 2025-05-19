@@ -2,7 +2,7 @@
 * @name Overhaul (Rewrote)
 * @author lunar1um
 * @description Includes a lot of changes to the Discord UI, focused on making it cleaner and more eye-appealing.
-* @version 1.1
+* @version 1.2
 */
 
 @import url(https://raw.githubusercontent.com/Lunarr199/discord-overhaul/refs/heads/main/src.css);
@@ -12,4 +12,5 @@
   --accent-saturation: 77.5%;
   --accent-lightness: 47.1%;
   --accent-hsl: var(--accent-hue),calc(var(--accent-saturation) * var(--saturation-factor)),var(--accent-lightness);
+  --hitbox-size: 20px;
 }
