@@ -8,5 +8,6 @@
 @import url(https://raw.githubusercontent.com/Lunarr199/discord-overhaul/refs/heads/main/src.css);
 
 :root {
-  --hitbox-size: 20px;
+  --hitbox-size: 20px; /* width of dynamic sidebar hitbox */
+  --border-radius: 28px; /* border radius of the text area */
 }

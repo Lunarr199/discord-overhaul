@@ -97,7 +97,7 @@ div[aria-label*="Member List"] {
 .channelTextArea__74017,
 .wrapper__44df5 {
   margin: 0;
-  border-radius: 28px;
+  border-radius: var(--border-radius);
 }
 
 .channelTextArea__74017 .scrollableContainer__74017,
@@ -148,6 +148,6 @@ div[aria-label*="Member List"] {
 }
 
 .floatingBars__74017:empty+.stackedBars__74017:nth-child(2), .stackedBars__74017:first-child {
-    border-top-left-radius: 28px;
-    border-top-right-radius: 28px;
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
 }
