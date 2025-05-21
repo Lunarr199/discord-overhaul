@@ -137,30 +137,14 @@ div[aria-label*="Member List"] {
   background: transparent;
 }
 
-.mentionButton__841c8 {
-  --text-link: hsl(var(--accent-hsl));
-}
-
 .threadSuggestionBar__841c8 {
   background-color: transparent;
-}
-
-.colorLink__201d5, .colorLink_fbc755 {
-  color: hsl(var(--accent-hsl));
-}
-
-.fakeLink_ada32f {
-  color: hsl(var(--accent-hsl));
 }
 
 .inlineCode_ada32f,
 .before_inlineCode_ada32f,
 .after_inlineCode_ada32f {
   background-color: hsl(0,0%,0%,0.4);
-}
-
-.inlineCode_ada32f {
-  color: #ccc;
 }
 
 .floatingBars__74017:empty+.stackedBars__74017:nth-child(2), .stackedBars__74017:first-child {

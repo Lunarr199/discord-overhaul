@@ -8,9 +8,5 @@
 @import url(https://raw.githubusercontent.com/Lunarr199/discord-overhaul/refs/heads/main/src.css);
 
 :root {
-  --accent-hue: 156;
-  --accent-saturation: 77.5%;
-  --accent-lightness: 47.1%;
-  --accent-hsl: var(--accent-hue),calc(var(--accent-saturation) * var(--saturation-factor)),var(--accent-lightness);
   --hitbox-size: 20px;
 }
