@@ -1,6 +1,6 @@
 /* hide unnecessary elements */
 .container_e45859:has(a[data-list-item-id*="nitro"]),
-a[href*="support"],
+.trailing_c38106 > a[href*="support"],
 .toolbar__9293f > div[aria-label*="Notification"],
 .buttons__74017 > button[aria-label*="gift"], .buttons__74017 button[aria-label*="GIF"], .buttons__74017 button[aria-label*="sticker"] {
     display: none !important;
